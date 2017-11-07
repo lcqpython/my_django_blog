@@ -1,0 +1,10 @@
+<!--post.html-->
+{% extends 'base.html'%}
+{% block headmessage %}
+    <h3>{{article.title}}</h3>
+    <a href="/">回首页</a>
+{% endblock %}
+{% block content%}
+<p style="font-family:微软雅黑; font-size:10pt;font-width:bold">
+    {{article.content}}</p>
+{% endblock %}
